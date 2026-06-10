@@ -38,7 +38,6 @@ export default function TripDetail() {
           }}
         />
 
-        {/* overlay */}
         <div
           style={{
             position: "absolute",
@@ -74,7 +73,7 @@ export default function TripDetail() {
             gap: "10px"
           }}
         >
-          {trip.highlights.map((item, index) => (
+          {(trip.highlights || []).map((item, index) => (
             <span
               key={index}
               style={{
@@ -91,8 +90,8 @@ export default function TripDetail() {
         </div>
       </div>
 
-      {/* STORY / FUN SECTION */}
-      <div className="card">
+      {/* STORY */}
+      <div className="card" style={{ marginBottom: "20px" }}>
         <h2>Travel Story 📖</h2>
 
         <p>
@@ -111,42 +110,37 @@ export default function TripDetail() {
         </p>
       </div>
 
+      {/* GALLERY */}
+      {trip.gallery?.length > 0 && (
+        <div className="card">
+          <h2>Photo Gallery 📸</h2>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns:
+                "repeat(auto-fit, minmax(180px, 1fr))",
+              gap: "10px"
+            }}
+          >
+            {trip.gallery.map((img, index) => (
+              <img
+                key={index}
+                src={img}
+                alt={`${trip.title}-${index}`}
+                loading="lazy"
+                style={{
+                  width: "100%",
+                  height: "140px",
+                  objectFit: "cover",
+                  borderRadius: "10px"
+                }}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }
-{/* GALLERY SECTION */}
-{trip.gallery && (
-  <div className="card" style={{ marginTop: "20px" }}>
-    <h2>Photo Gallery 📸</h2>
-
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-        gap: "10px"
-      }}
-    >
-      {trip.gallery.map((img, index) => (
-        <img
-          key={index}
-          src={img}
-          alt={`gallery-${index}`}
-          loading="lazy"
-          style={{
-            width: "100%",
-            height: "140px",
-            objectFit: "cover",
-            borderRadius: "10px",
-            transition: "transform 0.2s ease"
-          }}
-          onMouseOver={(e) =>
-            (e.currentTarget.style.transform = "scale(1.03)")
-          }
-          onMouseOut={(e) =>
-            (e.currentTarget.style.transform = "scale(1)")
-          }
-        />
-      ))}
-    </div>
-  </div>
-)}

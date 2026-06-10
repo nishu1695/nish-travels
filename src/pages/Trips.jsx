@@ -2,48 +2,69 @@ import { trips } from "../data/trips";
 import { Link } from "react-router-dom";
 
 export default function Trips() {
+  // Safety check
+  if (!Array.isArray(trips)) {
+    return (
+      <div className="section">
+        <h1>My Trips ✈️</h1>
+        <p>Trip data unavailable.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="section">
       <h1>My Trips ✈️</h1>
 
       <div className="grid">
-        {trips.map((trip) => (
-          <Link
-            key={trip.id}
-            to={`/trip/${trip.id}`}
-            style={{ textDecoration: "none", color: "inherit" }}
-          >
-            <div className="card" style={{ overflow: "hidden" }}>
+        {trips.map((trip) => {
+          if (!trip?.id) return null;
 
-              {/* IMAGE — THIS IS CRITICAL */}
-              <img
-                src={trip.image}
-                alt={trip.title}
-                loading="lazy"
+          return (
+            <Link
+              key={trip.id}
+              to={`/trip/${trip.id}`}
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              <div
+                className="card"
                 style={{
-                  width: "100%",
-                  height: "180px",
-                  objectFit: "cover",
-                  borderRadius: "10px",
-                  display: "block"
+                  overflow: "hidden",
                 }}
-              />
+              >
+                <img
+                  src={trip.image || "/images/placeholder.jpg"}
+                  alt={trip.title || "Trip"}
+                  loading="lazy"
+                  onError={(e) => {
+                    e.target.src = "/images/placeholder.jpg";
+                  }}
+                  style={{
+                    width: "100%",
+                    height: "180px",
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                    display: "block",
+                  }}
+                />
 
-              <h3 style={{ marginTop: "10px" }}>
-                {trip.title}
-              </h3>
+                <h3 style={{ marginTop: "10px" }}>
+                  {trip.title || "Untitled Trip"}
+                </h3>
 
-              <p style={{ opacity: 0.8 }}>
-                {trip.description}
-              </p>
+                <p style={{ opacity: 0.8 }}>
+                  {trip.description || "No description available"}
+                </p>
 
-              <small>{trip.country}</small>
-
-            </div>
-          </Link>
-        ))}
+                <small>{trip.country || "Unknown"}</small>
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
 }
-console.log("TRIPS DATA:", trips);

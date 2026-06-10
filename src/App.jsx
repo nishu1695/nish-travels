@@ -24,3 +24,11 @@ export default function App() {
     </div>
   );
 }
+
+// export default function App() {
+//   return (
+//     <div style={{ padding: "40px" }}>
+//       <h1>APP IS LOADING ✅</h1>
+//     </div>
+//   );
+// }

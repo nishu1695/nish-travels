@@ -17,15 +17,15 @@ export default function TripDetail() {
   return (
     <div className="section">
 
-      {/* HERO SECTION */}
+      {/* HERO */}
       <div
         style={{
+          position: "relative",
           width: "100%",
-          height: "350px",
-          borderRadius: "12px",
+          height: "450px",
+          borderRadius: "16px",
           overflow: "hidden",
-          marginBottom: "20px",
-          position: "relative"
+          marginBottom: "30px"
         }}
       >
         <img
@@ -43,28 +43,44 @@ export default function TripDetail() {
             position: "absolute",
             bottom: 0,
             width: "100%",
-            padding: "20px",
+            padding: "30px",
             background:
-              "linear-gradient(to top, rgba(0,0,0,0.7), transparent)",
+              "linear-gradient(to top, rgba(0,0,0,0.8), transparent)",
             color: "white"
           }}
         >
-          <h1 style={{ margin: 0 }}>{trip.title}</h1>
-          <p style={{ margin: 0, opacity: 0.9 }}>
+          <h1 style={{ margin: 0 }}>
+            {trip.title}
+          </h1>
+
+          <p style={{ marginTop: "8px" }}>
             {trip.country}
           </p>
+
+          {trip.duration && (
+            <p>
+              ⏳ {trip.duration}
+            </p>
+          )}
         </div>
       </div>
 
-      {/* DESCRIPTION */}
+      {/* OVERVIEW */}
       <div className="card" style={{ marginBottom: "20px" }}>
         <h2>Overview</h2>
+
         <p>{trip.description}</p>
+
+        {trip.tripType && (
+          <p>
+            <b>Trip Type:</b> {trip.tripType}
+          </p>
+        )}
       </div>
 
       {/* HIGHLIGHTS */}
       <div className="card" style={{ marginBottom: "20px" }}>
-        <h2>Highlights ✨</h2>
+        <h2>Trip Highlights ✨</h2>
 
         <div
           style={{
@@ -79,9 +95,9 @@ export default function TripDetail() {
               style={{
                 background: "#ff8c42",
                 color: "white",
-                padding: "6px 10px",
+                padding: "8px 12px",
                 borderRadius: "20px",
-                fontSize: "13px"
+                fontSize: "14px"
               }}
             >
               {item}
@@ -91,26 +107,78 @@ export default function TripDetail() {
       </div>
 
       {/* STORY */}
-      <div className="card" style={{ marginBottom: "20px" }}>
-        <h2>Travel Story 📖</h2>
+      {trip.story && (
+        <div className="card" style={{ marginBottom: "20px" }}>
+          <h2>Travel Story 📖</h2>
 
-        <p>
-          This trip to <b>{trip.title}</b> was a mix of adventure,
-          exploration, and unforgettable moments.
-        </p>
+          <p
+            style={{
+              whiteSpace: "pre-line",
+              lineHeight: "1.8"
+            }}
+          >
+            {trip.story}
+          </p>
+        </div>
+      )}
 
-        <p>
-          Every destination had something unique — from scenic views
-          to unexpected funny incidents that made the journey memorable.
-        </p>
+      {/* FAVORITE MOMENT */}
+      {trip.favoriteMoment && (
+        <div className="card" style={{ marginBottom: "20px" }}>
+          <h2>Favorite Moment ⭐</h2>
 
-        <p>
-          More detailed day-by-day itinerary and photos will be added
-          soon in the next upgrade.
-        </p>
-      </div>
+          <p>{trip.favoriteMoment}</p>
+        </div>
+      )}
 
-      {/* GALLERY */}
+      {/* FUNNIEST MOMENT */}
+      {trip.funniestMoment && (
+        <div className="card" style={{ marginBottom: "20px" }}>
+          <h2>Funniest Moment 😂</h2>
+
+          <p>{trip.funniestMoment}</p>
+        </div>
+      )}
+
+      {/* ITINERARY */}
+      {trip.itinerary?.length > 0 && (
+        <div
+          className="card"
+          style={{ marginBottom: "20px" }}
+        >
+          <h2>Day-by-Day Itinerary 🗺️</h2>
+
+          {trip.itinerary.map((day) => (
+            <div
+              key={day.day}
+              style={{
+                marginBottom: "25px",
+                paddingBottom: "20px",
+                borderBottom: "1px solid rgba(255,255,255,0.1)"
+              }}
+            >
+              <h3>
+                Day {day.day}: {day.title}
+              </h3>
+
+              <ul>
+                {day.details.map((item, index) => (
+                  <li
+                    key={index}
+                    style={{
+                      marginBottom: "8px"
+                    }}
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* PHOTO GALLERY */}
       {trip.gallery?.length > 0 && (
         <div className="card">
           <h2>Photo Gallery 📸</h2>
@@ -119,8 +187,8 @@ export default function TripDetail() {
             style={{
               display: "grid",
               gridTemplateColumns:
-                "repeat(auto-fit, minmax(180px, 1fr))",
-              gap: "10px"
+                "repeat(auto-fit, minmax(250px, 1fr))",
+              gap: "15px"
             }}
           >
             {trip.gallery.map((img, index) => (
@@ -129,15 +197,27 @@ export default function TripDetail() {
                 src={img}
                 alt={`${trip.title}-${index}`}
                 loading="lazy"
+                onClick={() => window.open(img, "_blank")}
                 style={{
                   width: "100%",
-                  height: "140px",
+                  height: "250px",
                   objectFit: "cover",
-                  borderRadius: "10px"
+                  borderRadius: "12px",
+                  cursor: "pointer",
+                  transition: "0.2s"
                 }}
               />
             ))}
           </div>
+
+          <p
+            style={{
+              marginTop: "15px",
+              opacity: 0.7
+            }}
+          >
+            Click any image to view full size.
+          </p>
         </div>
       )}
 

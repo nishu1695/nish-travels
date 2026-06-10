@@ -6,6 +6,7 @@ import Trips from "./pages/Trips";
 import TripDetail from "./pages/TripDetail";
 import Gallery from "./pages/Gallery";
 import About from "./pages/About";
+import MapPage from "./pages/MapPage";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/trip/:id" element={<TripDetail />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
+        <Route path="/map" element={<MapPage />} />
       </Routes>
     </div>
   );

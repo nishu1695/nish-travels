@@ -114,3 +114,39 @@ export default function TripDetail() {
     </div>
   );
 }
+{/* GALLERY SECTION */}
+{trip.gallery && (
+  <div className="card" style={{ marginTop: "20px" }}>
+    <h2>Photo Gallery 📸</h2>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+        gap: "10px"
+      }}
+    >
+      {trip.gallery.map((img, index) => (
+        <img
+          key={index}
+          src={img}
+          alt={`gallery-${index}`}
+          loading="lazy"
+          style={{
+            width: "100%",
+            height: "140px",
+            objectFit: "cover",
+            borderRadius: "10px",
+            transition: "transform 0.2s ease"
+          }}
+          onMouseOver={(e) =>
+            (e.currentTarget.style.transform = "scale(1.03)")
+          }
+          onMouseOut={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      ))}
+    </div>
+  </div>
+)}

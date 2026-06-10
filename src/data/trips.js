@@ -5,7 +5,12 @@ export const trips = [
     description: "Zion, Bryce, Arches, Canyonlands, Capitol Reef",
     image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Zion Narrows", "Angels Landing", "Delicate Arch", "Mesa Arch", "Hickman Bridge", "Goblin Valley"],
-    country: "USA"
+    country: "USA",
+    gallery: [
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ]
   },
   {
     id: "las-vegas",
@@ -13,7 +18,13 @@ export const trips = [
     description: "The Strip, nightlife, Valley of Fire",
     image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Sphere", "Bellagio", "Red Rock Canyon", "Fremont Street", "Valley of Fire"],
-    country: "USA"
+    country: "USA",
+
+    gallery: [
+      "https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616172460280-3f0a7d3f6c5b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80"
+    ]
   },
   {
     id: "california-roadtrip",
@@ -45,7 +56,12 @@ export const trips = [
     description: "Broadway, Times Square, Central Park",
     image: "https://images.unsplash.com/photo-1546436836-07a91091f160?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Times Square", "Brooklyn Bridge", "Central Park", "Statue of Liberty", "Empire State Building", "9/11 Memorial", "Metropolitan Museum of Art", "High Line", "One World Observatory"],
-    country: "USA"
+    country: "USA",
+    gallery: [
+      "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
+    ]
   },
   {
     id: "chicago",

@@ -46,3 +46,4 @@ export default function Trips() {
     </div>
   );
 }
+console.log("TRIPS DATA:", trips);

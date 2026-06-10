@@ -3,34 +3,39 @@ export const trips = [
     id: "utah-mighty-5",
     title: "Utah Mighty 5",
     description: "Zion, Bryce, Arches, Canyonlands, Capitol Reef",
-    highlights: ["Zion Narrows", "Angels Landing", "Delicate Arch"],
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Zion Narrows", "Angels Landing", "Delicate Arch", "Mesa Arch", "Hickman Bridge", "Goblin Valley"],
     country: "USA"
   },
   {
     id: "las-vegas",
     title: "Las Vegas",
     description: "The Strip, nightlife, Valley of Fire",
-    highlights: ["Sphere", "Bellagio", "Red Rock Canyon"],
+    image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Sphere", "Bellagio", "Red Rock Canyon", "Fremont Street", "Valley of Fire"],
     country: "USA"
   },
   {
     id: "california-roadtrip",
     title: "California Road Trip",
     description: "SF to LA adventure",
-    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree"],
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree", "Big Sur"],
     country: "USA"
   },
   {
     id: "orlando",
     title: "Orlando Theme Parks",
     description: "Universal + Disney World",
-    highlights: ["Harry Potter World", "Magic Kingdom"],
+    image: "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Harry Potter World", "Magic Kingdom", "EPCOT", "Animal Kingdom", "Hollywood Studios", "Universal Studios"],
     country: "USA"
   },
   {
     id: "smoky-mountains",
     title: "Great Smoky Mountains",
     description: "Tennessee nature trip",
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Clingmans Dome", "Gatlinburg"],
     country: "USA"
   },
@@ -38,20 +43,23 @@ export const trips = [
     id: "nyc",
     title: "New York City",
     description: "Broadway, Times Square, Central Park",
-    highlights: ["Times Square", "Brooklyn Bridge"],
+    image: "https://images.unsplash.com/photo-1546436836-07a91091f160?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Times Square", "Brooklyn Bridge", "Central Park", "Statue of Liberty", "Empire State Building", "9/11 Memorial", "Metropolitan Museum of Art", "High Line", "One World Observatory"],
     country: "USA"
   },
   {
     id: "chicago",
     title: "Chicago",
     description: "Architecture + city life",
-    highlights: ["Millennium Park", "Navy Pier"],
+    image: "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Millennium Park", "Navy Pier", "Skydeck", "Riverwalk"],
     country: "USA"
   },
   {
     id: "st-louis",
     title: "St. Louis",
     description: "Gateway Arch National Park",
+    image: "https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Gateway Arch"],
     country: "USA"
   },
@@ -59,6 +67,7 @@ export const trips = [
     id: "canada",
     title: "Canada East",
     description: "Toronto + Niagara Falls",
+    image: "https://images.unsplash.com/photo-1503614472-8c93d56cd6f2?auto=format&fit=crop&w=1200&q=80",
     highlights: ["CN Tower", "Niagara Falls"],
     country: "Canada"
   },
@@ -66,41 +75,47 @@ export const trips = [
     id: "acadia",
     title: "Acadia National Park",
     description: "Maine coastal beauty",
-    highlights: ["Cadillac Mountain"],
+    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Cadillac Mountain", "Jordan Pond", "Thunder Hole", "Sand Beach", "Bass Harbor Head Lighthouse"],
     country: "USA"
   },
   {
     id: "portugal-2026",
-    title: "Portugal 2026",
-    description: "Lisbon, Porto, Sintra",
-    highlights: ["Belem Tower", "Alfama"],
+    title: "Portugal",
+    description: "Lisbon, Porto, Sintra, Albufeira, Guimarães, Coimbra, Aveiro, Braga",
+    image: "https://images.unsplash.com/photo-1526404429640-3d5a6c6d0f4a?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Castles", "Tram 28", "Port wine", "Beaches", "Tile art"],
     country: "Portugal"
   },
   {
     id: "singapore-malaysia",
     title: "Singapore & Malaysia",
     description: "City + nature mix",
-    highlights: ["Marina Bay Sands", "Kuala Lumpur"],
+    image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Marina Bay Sands", "Kuala Lumpur, Batu Caves", "Singapore Botanic Gardens", "Gardens by the Bay", "Sentosa Island", "Malacca"],
     country: "Asia"
   },
   {
     id: "india",
     title: "India (Ahmedabad)",
     description: "Home city visit",
-    highlights: ["Sabarmati Riverfront"],
+    image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Sabarmati Riverfront", "Kankaria Lake", "Adalaj Stepwell", "Sidi Saiyyed Mosque", "Bhadra Fort"],
     country: "India"
   },
   {
     id: "aruba",
     title: "Aruba",
     description: "Caribbean island escape",
-    highlights: ["Eagle Beach"],
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Eagle Beach", "Arikok National Park", "Palm Beach", "California Lighthouse", "Natural Pool"],
     country: "Caribbean"
   },
   {
     id: "cancun",
     title: "Cancun",
     description: "Mexico beaches",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Hotel Zone", "Isla Mujeres"],
     country: "Mexico"
   },
@@ -108,7 +123,8 @@ export const trips = [
     id: "new-mexico",
     title: "New Mexico",
     description: "Desert landscapes",
-    highlights: ["White Sands"],
+    image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["White Sands", "Albuquerque"],
     country: "USA"
   }
 ];

@@ -1,26 +1,43 @@
-import { Link } from "react-router-dom";
 import { trips } from "../data/trips";
+import { Link } from "react-router-dom";
 
 export default function Trips() {
   return (
     <div className="section">
-      <h1>My Travel Adventures ✈️</h1>
+      <h1>My Trips ✈️</h1>
 
       <div className="grid">
         {trips.map((trip) => (
-          <Link key={trip.id} to={`/trip/${trip.id}`}>
-            <div className="card">
+          <Link
+            key={trip.id}
+            to={`/trip/${trip.id}`}
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
+            <div className="card" style={{ overflow: "hidden" }}>
 
+              {/* IMAGE — THIS IS CRITICAL */}
               <img
-                src={trip.cover}
-                alt={trip.name}
-                className="trip-image"
+                src={trip.image}
+                alt={trip.title}
+                loading="lazy"
+                style={{
+                  width: "100%",
+                  height: "180px",
+                  objectFit: "cover",
+                  borderRadius: "10px",
+                  display: "block"
+                }}
               />
 
-              <div style={{ padding: "15px" }}>
-                <h3>{trip.name}</h3>
-                <p>{trip.location}</p>
-              </div>
+              <h3 style={{ marginTop: "10px" }}>
+                {trip.title}
+              </h3>
+
+              <p style={{ opacity: 0.8 }}>
+                {trip.description}
+              </p>
+
+              <small>{trip.country}</small>
 
             </div>
           </Link>

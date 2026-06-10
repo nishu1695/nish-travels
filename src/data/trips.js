@@ -1,23 +1,70 @@
 export const trips = [
   {
-    id: "portugal",
-    name: "Portugal - 2026",
-    location: "Porto • Guimeraes • Braga • Coimbra • Aveiro • Albufeira • Sintra • Lisbon",
+    id: "portugal-2026",
+    name: "Portugal 2026",
+    location: "Lisbon • Porto • Sintra",
     days: 11,
-    story: "Beautiful coastal cities, amazing food, and unforgettable sunsets."
+    cover:
+      "https://images.unsplash.com/photo-1513735492246-483525079686?q=80&w=1200&auto=format&fit=crop",
+    story:
+      "Exploring Portugal's history, food, coastlines, and beautiful cities.",
+    highlights: [
+      "Lisbon",
+      "Porto",
+      "Sintra",
+      "Cabo da Roca",
+      "Pastel de Nata"
+    ]
   },
+
   {
-    id: "utah",
-    name: "Utah- Mighty 5 - 2026",
-    location: "Zion • Bryce • Capitol Reef • Arches • Canyonlands",
+    id: "utah-mighty-5",
+    name: "Utah Mighty 5",
+    location: "Zion • Bryce • Arches",
     days: 10,
-    story: "National parks road trip with insane landscapes. Sunrises and Sunsets were the best part."
+    cover:
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop",
+    story:
+      "Road trip through Utah's most spectacular national parks.",
+    highlights: [
+      "Zion",
+      "Bryce Canyon",
+      "Capitol Reef",
+      "Arches",
+      "Canyonlands"
+    ]
   },
+
   {
-    id: "vegas",
-    name: "Las Vegas - 2026",
-    location: "The Strip",
+    id: "las-vegas",
+    name: "Las Vegas",
+    location: "Nevada",
     days: 3,
-    story: "Lights, chaos, and way too many casino walks."
+    cover:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop",
+    story:
+      "Shows, casinos, food, nightlife and unexpected adventures.",
+    highlights: [
+      "Bellagio",
+      "Sphere",
+      "The Strip",
+      "Valley of Fire"
+    ]
+  },
+
+  {
+    id: "broadway-nyc",
+    name: "Broadway NYC",
+    location: "New York City",
+    days: 2,
+    cover:
+      "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?q=80&w=1200&auto=format&fit=crop",
+    story:
+      "Broadway shows, Times Square and classic NYC experiences.",
+    highlights: [
+      "Times Square",
+      "Broadway",
+      "Central Park"
+    ]
   }
 ];

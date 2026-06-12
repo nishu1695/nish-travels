@@ -81,11 +81,3 @@ export default function TravelMap() {
     </MapContainer>
   );
 }
-
-// export default function TravelMap() {
-//   return (
-//     <div style={{ padding: "20px" }}>
-//       <h2>Map temporarily disabled</h2>
-//     </div>
-//   );
-// }

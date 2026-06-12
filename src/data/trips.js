@@ -5,7 +5,7 @@ export const trips = [
   description:
     "10-day road trip covering Zion, Bryce Canyon, Capitol Reef, Canyonlands, Arches, Goblin Valley, and Valley of Fire.",
 
-  image: "/images/utah/hero.jpg",
+image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
 
   country: "USA",
 
@@ -206,16 +206,41 @@ export const trips = [
       ]
     }
   ],
+fullItinerary: `
+Complete Utah Mighty 5 Itinerary:
+
+Day 1- Early morning flight to Las Vegas. Airport at 5am for flight at 6.30am. Reach Vegas and rental car pickup. Seven magic mountains and Vegas sign. Walmart trip grocery shopping. Vegas strip drive and in n out lunch grab. Valley of Fire State park. Leave for airbnb by 4pm. Checkin at Airbnb.
+
+Uber from home early morning to EWR. Flight to Vegas (LAS). Security bags checked done. At gate right on time of boarding. Landed Vegas and Shuttle to rental car. Rental car pickup. Hyundai Venue car. In N out burger stop for lunch. Walmart trip grocery pickup. Welcome to las vegas sign. Seven magic mountains. Vegas strip drive with music. Drive to Valley of Fire state Park. Park explore. Drive to Hurricane at airbnb. On way stop at mcdonalds in overton for coffee. Welcome to utah sign photo stop. Airbnb checkin at hurricane.
+
+Day 2- Early morning get ready and drive to Zion for canyon overlook trail for sunrise views. Relax at the overlook for sometime. Drive the Zion carmel tunnel and highway. Canyon coffee breakfast in springdale. Park car and walk to zion visitor center. Shuttle to Angels landing scouts lookout trail. Hiking- Angels landing all noon. Back in shuttle to visitor center. Pickup car and subway for lunch/dinner. Late night tacobell run. Back at airbnb for the night.
+
+Day 3- Checkout from airbnb in hurricane. Reach zion visitor center no parking available (Tip: Go early in morning. Park in springdale town and take shuttle to zion visitor center. Shuttle to last stop for Narrows hike. Riverside walk hike to narrows. Narrows hike for couple hours. Back to shuttle stop to visitor center. Shuttle to parking. Pickup car and Canyon coffee and relax before driving to bryce canyon. Checkerboard mesa viewpoint. Drive to bryce canyon national park. Pizza pickup for dinner and then sunset point at bryce canyon. Checkin airbnb and relax for the night.
+
+Day 4 - Drive in morning to Bryce canyon. Park near shuttle entrance. Shuttle to bryce point overlook. Shuttle to sunrise point. Hike queens garden trail and Navajo loop trail. Back to sunset point. Shuttle to car. Pickup car. lunch near bryce canyon city. Local Coffee roasters coffee. Market near hotel. Drive to bryce canyon entrance and visitor center. Souvenier buy and watch film in visitor center. Drive the scenic 18 mile drive in bryce canyon. Rainbow point, natural bridge, Yovimpa point, and other viewpoints in car. Back to inspiration point for sunset. Sit there for an hour for sunset. Drive back to panguitch. Cstop pizza pickup dinner in panguitch. Back to airbnb for the night.
+
+Day 5 - Early morning sunrise at Bryce canyon sunrise point. Drive back to airbnb for couple hours of sleep. Pack and Checkout from airbnb. Drive back to Bryce canyon park. On way Red canyon views. Upper and lower inspiration points hike. Park car at bryce point. Hike the peeakaboo trail. Navajo loop connector. Two bridges trail. Back to sunset point. Shuttle to bryce point. Pick up car and drive. Coffee from tourist rest. Subway lunch at bryce canyon city. Drive to Loa. Checkin at airbnb. Maggi dinner and Airbnb for the night.
+
+Day 6 - Morning drive from airbnb to Torrey for Shooke coffee roastery. Capitol reef park sign photos. Viewpoints stopby. Panorama viewpoint. Visitor center souvenier buy and movie watch. Gifford homestead pie lunch. Hickman bridge trail hiking. Rain on the way back from hike (Running to car - funny). Petroglyphs watch. Gifford homestead icecream. Scenic drive for couple hours. Sunset point views. Drive to brickell for dinner at india palace/curry pizza. Back to airbnb for the night.
+
+Day 7 - Morning checkout from airbnb in loa. Drive to Torrey for Shooke roastery coffee. Capitol reef driveby. Goblins valley State Park and small valley hike. Drive to moab. Checkin at Hotel. Drive to Arches National Park for sunset at Delicate Arch. Hike Delicate arch. Drive back to Moab. Gilibertos mexican restaurant dinner. Reach back hotel. Spa and relax for the night.
+
+Day 8 - Early morning drive to canyonlands national park for sunrise at Mesa arch (One of the best sunrises of the trip). Drive back to moab hotel. Breakfast and sleep for couple hours. Ready and lunch at moab food truck. Souvenier shopping on moab downtown. Drive to Arches national park. Visitor center and drive the scenic route. Balanced rock hike, windows section arches hike. Devils garden landscape arch hike. Drive back to moab hotel. Back to hotel for the night.
+
+Day 9 - Early morning drive to mesa arch for sunrise (again!) in canyonlands. Grand view point overlook. Green river overlook. Visitor center movie watching. Other overlook views. Drive back to moab hotel. Pack and checkout from moab. Potash road drive. Drive to Las vegas. Reach Strat hotel las vegas. Checkin and rest for sometime. Go for dinner. Drive by sphere for views.
+
+Day 10 - Get rental car from valet and go to coffee roastery for breakfast. Duece City bus to go to strip. Cosmopolitan and bellagio and fountains show. Walk to sphere going through flamingo and other casinos. Sphere show- Wizard of Oz. Walk through venetian to bellagio fountains show. In N out burger for dinner; return rental. Get flight back home.
+`,
 
 gallery: [
-  "/images/utah/thors-hammer.jpg",
-  "/images/utah/canyonlands.jpg",
-  "/images/utah/mesa-arch.jpg",
-  "/images/utah/double-arch.jpg",
-  "/images/utah/windows.jpg",
-  "/images/utah/windows-2.jpg",
-  "/images/utah/balanced-rock.jpg",
-  "/images/utah/goblins-valley-state-park.jpg"
+  `${import.meta.env.BASE_URL}images/utah/thors-hammer.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/canyonlands.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/mesa-arch.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/double-arch.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/windows.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/windows-2.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/balanced-rock.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/goblins-valley.jpg`
 ]
 },
   {

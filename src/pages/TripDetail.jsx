@@ -177,7 +177,57 @@ export default function TripDetail() {
           ))}
         </div>
       )}
+{/* COMPLETE ITINERARY COPY SECTION */}
+{trip.fullItinerary && (
+  <div
+    className="card"
+    style={{ marginBottom: "20px" }}
+  >
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginBottom: "15px",
+      }}
+    >
+      <h2>Complete Copyable Itinerary 📋</h2>
 
+      <button
+        onClick={() =>
+          navigator.clipboard.writeText(
+            trip.fullItinerary
+          )
+        }
+        style={{
+          background: "#ff8c42",
+          border: "none",
+          color: "white",
+          padding: "10px 16px",
+          borderRadius: "8px",
+          cursor: "pointer",
+          fontWeight: "bold",
+        }}
+      >
+        Copy Itinerary
+      </button>
+    </div>
+
+    <div
+      style={{
+        background: "rgba(255,255,255,0.05)",
+        padding: "20px",
+        borderRadius: "10px",
+        maxHeight: "500px",
+        overflowY: "auto",
+        whiteSpace: "pre-wrap",
+        lineHeight: "1.7",
+      }}
+    >
+      {trip.fullItinerary}
+    </div>
+  </div>
+)}
       {/* PHOTO GALLERY */}
       {trip.gallery?.length > 0 && (
         <div className="card">

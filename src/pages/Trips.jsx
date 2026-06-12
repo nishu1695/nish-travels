@@ -2,7 +2,6 @@ import { trips } from "../data/trips";
 import { Link } from "react-router-dom";
 
 export default function Trips() {
-  // Safety check
   if (!Array.isArray(trips)) {
     return (
       <div className="section">
@@ -36,12 +35,9 @@ export default function Trips() {
                 }}
               >
                 <img
-                  src={trip.image || "/images/placeholder.jpg"}
-                  alt={trip.title || "Trip"}
+                  src={trip.image}
+                  alt={trip.title}
                   loading="lazy"
-                  onError={(e) => {
-                    e.target.src = "/images/placeholder.jpg";
-                  }}
                   style={{
                     width: "100%",
                     height: "180px",
@@ -52,14 +48,14 @@ export default function Trips() {
                 />
 
                 <h3 style={{ marginTop: "10px" }}>
-                  {trip.title || "Untitled Trip"}
+                  {trip.title}
                 </h3>
 
                 <p style={{ opacity: 0.8 }}>
-                  {trip.description || "No description available"}
+                  {trip.description}
                 </p>
 
-                <small>{trip.country || "Unknown"}</small>
+                <small>{trip.country}</small>
               </div>
             </Link>
           );

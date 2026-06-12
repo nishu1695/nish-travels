@@ -3,7 +3,7 @@ export const trips = [
   id: "utah-mighty-5",
   title: "Utah Mighty 5",
   description:
-    "10-day road trip covering Zion, Bryce Canyon, Capitol Reef, Canyonlands, Arches, Goblin Valley, and Valley of Fire.",
+    "10-day road trip covering Zion, Bryce Canyon, Capitol Reef, Canyonlands, Arches, Goblin Valley State Park, and Valley of Fire State Park.",
 
 image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
 
@@ -17,27 +17,28 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
     "Angels Landing",
     "The Narrows",
     "Bryce Amphitheater",
+    "Bryce Canyon Hoodoos Sunrise",
     "Peekaboo Loop",
     "Hickman Bridge",
-    "Goblin Valley",
+    "Goblin Valley State Park",
     "Delicate Arch",
     "Mesa Arch Sunrise",
     "Windows Section",
     "Balanced Rock",
     "Canyonlands Overlooks",
-    "Valley of Fire"
+    "Valley of Fire State Park"
   ],
 
   story: `
   The Utah Mighty 5 trip was one of the most memorable adventures I have ever taken.
-  Starting in Las Vegas, I explored Valley of Fire before entering Utah and spending
+  Starting in Las Vegas, I explored Valley of Fire State Park before entering Utah and spending
   the next week visiting all five Utah National Parks.
 
   The trip combined sunrise hikes, scenic drives, red rock canyons, arches, slot
   canyons, desert landscapes, and unforgettable viewpoints.
 
   Highlights included hiking Angels Landing, walking into The Narrows, watching
-  sunrise at Mesa Arch, hiking Delicate Arch at sunset, exploring Goblin Valley,
+  sunrise at Bryce Canyon and Mesa Arch, Sunsets at Bryce Canyon and Arches, hiking Delicate Arch at sunset, exploring Goblin Valley State Park,
   and experiencing Bryce Canyon's incredible hoodoos.
 
   The funniest moment of the trip happened in Capitol Reef when rain started during
@@ -45,7 +46,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
   `,
 
   favoriteMoment:
-    "Watching sunrise at Mesa Arch in Canyonlands National Park.",
+    "Watching sunrise and sunsets at Bryce Canyon.",
 
   funniestMoment:
     "Running back to the car during a sudden rainstorm after hiking Hickman Bridge in Capitol Reef.",
@@ -79,7 +80,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Zion shuttle to Scouts Lookout",
         "Angels Landing hike",
         "Return shuttle to Visitor Center",
-        "Subway dinner",
+        "Subway dinner after hiking",
         "Late-night Taco Bell run"
       ]
     },
@@ -124,7 +125,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Lower Inspiration Point",
         "Peekaboo Loop Trail",
         "Two Bridges Trail",
-        "Drive to Loa",
+        "Drive to Loa (Capitol Reef)",
         "Airbnb check-in"
       ]
     },
@@ -155,7 +156,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Hotel check-in",
         "Arches National Park",
         "Delicate Arch sunset hike",
-        "Dinner at Giliberto's"
+        "Dinner at Giliberto's Mexican Restaurant"
       ]
     },
 
@@ -169,7 +170,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Balanced Rock",
         "Windows Section",
         "Landscape Arch",
-        "Devils Garden"
+        "Devils Garden hike"
       ]
     },
 
@@ -196,6 +197,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "The Deuce bus",
         "Bellagio",
         "Cosmopolitan",
+        "Flamingo",
         "Sphere",
         "Wizard of Oz Sphere Show",
         "Venetian",
@@ -246,16 +248,20 @@ gallery: [
   {
     id: "las-vegas",
     title: "Las Vegas",
-    description: "The Strip, nightlife, Valley of Fire",
-    image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Sphere", "Bellagio", "Red Rock Canyon", "Fremont Street", "Valley of Fire"],
+    description: "The Strip, nightlife, Seven Magic Mountains, Bellagio, Hoover Dam, Valley of Fire State Park",
+    image: `${import.meta.env.BASE_URL}images/vegas/hero.jpg`,
+    highlights: ["Sphere", "Bellagio", "Venetian", "Caesar's Palace", "Valley of Fire State Park", "Seven Magic Mountains", "Excalibur", "Luxor", "New York-New York", "Cosmopolitan", "Flamingo", "Stratosphere"],
     country: "USA",
 
-    gallery: [
-      "https://images.unsplash.com/photo-1504805572947-34fad45aed93?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1616172460280-3f0a7d3f6c5b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?auto=format&fit=crop&w=1200&q=80"
-    ]
+gallery: [
+  `${import.meta.env.BASE_URL}images/vegas/bellagio.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/dam.JPG`,
+  `${import.meta.env.BASE_URL}images/vegas/hoover.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/luxor.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/newyork.JPG`,
+  `${import.meta.env.BASE_URL}images/vegas/sphere.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/venetian.jpg`,
+]
   },
   {
     id: "california-roadtrip",

@@ -5,7 +5,7 @@ export const trips = [
   description:
     "10-day road trip covering Zion, Bryce Canyon, Capitol Reef, Canyonlands, Arches, Goblin Valley State Park, and Valley of Fire State Park.",
 
-image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
+  image: `${import.meta.env.BASE_URL}images/utah/delicate-2.jpg`,
 
   country: "USA",
 
@@ -56,17 +56,17 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
       day: 1,
       title: "Las Vegas Arrival • Valley of Fire • Hurricane",
       details: [
-        "Early morning flight from Newark (EWR) to Las Vegas (LAS)",
-        "Rental car pickup (Hyundai Venue)",
+        "Early morning flight to Las Vegas (LAS)",
+        "Rental car pickup (Hyundai Venue- compact SUV)",
         "In-N-Out Burger lunch",
-        "Walmart grocery shopping",
+        "Walmart trip grocery shopping",
         "Welcome to Las Vegas Sign",
         "Seven Magic Mountains",
         "Las Vegas Strip drive",
         "Valley of Fire State Park exploration",
         "Coffee stop in Overton",
         "Welcome to Utah photo stop",
-        "Airbnb check-in in Hurricane"
+        "Airbnb check-in in Hurricane,UT"
       ]
     },
 
@@ -80,7 +80,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Zion shuttle to Scouts Lookout",
         "Angels Landing hike",
         "Return shuttle to Visitor Center",
-        "Subway dinner after hiking",
+        "Dinner in Springdale",
         "Late-night Taco Bell run"
       ]
     },
@@ -95,7 +95,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Checkerboard Mesa viewpoint",
         "Drive to Bryce Canyon",
         "Bryce Canyon Sunset Point",
-        "Airbnb check-in"
+        "Airbnb check-in in Panguitch,UT"
       ]
     },
 
@@ -126,7 +126,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Peekaboo Loop Trail",
         "Two Bridges Trail",
         "Drive to Loa (Capitol Reef)",
-        "Airbnb check-in"
+        "Airbnb check-in in Loa,UT"
       ]
     },
 
@@ -142,7 +142,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Petroglyphs",
         "Scenic Drive",
         "Sunset viewpoints",
-        "Dinner in Bicknell"
+        "Dinner in Bicknell,UT"
       ]
     },
 
@@ -154,7 +154,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
         "Valley exploration hike",
         "Drive to Moab",
         "Hotel check-in",
-        "Arches National Park",
+        "Arches National Park Scenic Drive",
         "Delicate Arch sunset hike",
         "Dinner at Giliberto's Mexican Restaurant"
       ]
@@ -165,7 +165,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
       title: "Canyonlands Sunrise • Arches Exploration",
       details: [
         "Mesa Arch sunrise",
-        "Moab downtown shopping",
+        "Moab downtown souvenirs shopping",
         "Arches Visitor Center",
         "Balanced Rock",
         "Windows Section",
@@ -178,7 +178,7 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
       day: 9,
       title: "Canyonlands • Las Vegas",
       details: [
-        "Mesa Arch sunrise again",
+        "Mesa Arch sunrise (again!)",
         "Grand View Point",
         "Green River Overlook",
         "Visitor Center film",
@@ -211,19 +211,17 @@ image: `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
 fullItinerary: `
 Complete Utah Mighty 5 Itinerary:
 
-Day 1- Early morning flight to Las Vegas. Airport at 5am for flight at 6.30am. Reach Vegas and rental car pickup. Seven magic mountains and Vegas sign. Walmart trip grocery shopping. Vegas strip drive and in n out lunch grab. Valley of Fire State park. Leave for airbnb by 4pm. Checkin at Airbnb.
+Day 1- Early morning flight to Las Vegas. Reach Vegas and rental car pickup. Seven magic mountains and Vegas sign. Walmart trip grocery shopping. Vegas strip drive and In-N-Out lunch grab. Valley of Fire State park. Leave for airbnb by 5pm. On way stop at mcdonalds in overton for coffee. Welcome to utah sign photo stop. Checkin at Airbnb in Hurricane,UT.
 
-Uber from home early morning to EWR. Flight to Vegas (LAS). Security bags checked done. At gate right on time of boarding. Landed Vegas and Shuttle to rental car. Rental car pickup. Hyundai Venue car. In N out burger stop for lunch. Walmart trip grocery pickup. Welcome to las vegas sign. Seven magic mountains. Vegas strip drive with music. Drive to Valley of Fire state Park. Park explore. Drive to Hurricane at airbnb. On way stop at mcdonalds in overton for coffee. Welcome to utah sign photo stop. Airbnb checkin at hurricane.
+Day 2- Early morning drive to Zion for Canyon Overlook trail for sunrise views. Relax at the overlook for sometime. Drive the Zion carmel tunnel and highway. Canyon coffee breakfast in springdale. Park car and walk to zion visitor center. Shuttle to Angels landing scouts lookout trail. Hiking- Angels landing all noon. Back in shuttle to visitor center. Springdale lunch/dinner. Late night tacobell run. Back at airbnb for the night.
 
-Day 2- Early morning get ready and drive to Zion for canyon overlook trail for sunrise views. Relax at the overlook for sometime. Drive the Zion carmel tunnel and highway. Canyon coffee breakfast in springdale. Park car and walk to zion visitor center. Shuttle to Angels landing scouts lookout trail. Hiking- Angels landing all noon. Back in shuttle to visitor center. Pickup car and subway for lunch/dinner. Late night tacobell run. Back at airbnb for the night.
+Day 3- Checkout from airbnb in hurricane. Reach Zion visitor center no parking available (Tip: Go early in morning!). Park in Springdale town and take shuttle to zion visitor center. Shuttle to last stop for Narrows hike. Riverside walk hike to narrows. Narrows hike for couple hours. Back to shuttle stop to visitor center. Shuttle to parking. Pickup car and Canyon coffee and relax before driving to Bryce canyon. Checkerboard mesa viewpoint. Drive to bryce canyon national park. Pizza pickup for dinner and then sunset point at Bryce canyon. Checkin at airbnb and relax for the night.
 
-Day 3- Checkout from airbnb in hurricane. Reach zion visitor center no parking available (Tip: Go early in morning. Park in springdale town and take shuttle to zion visitor center. Shuttle to last stop for Narrows hike. Riverside walk hike to narrows. Narrows hike for couple hours. Back to shuttle stop to visitor center. Shuttle to parking. Pickup car and Canyon coffee and relax before driving to bryce canyon. Checkerboard mesa viewpoint. Drive to bryce canyon national park. Pizza pickup for dinner and then sunset point at bryce canyon. Checkin airbnb and relax for the night.
+Day 4 - Drive in morning to Bryce canyon. Park near shuttle entrance. Shuttle to bryce point overlook. Shuttle to sunrise point. Hike Queens Garden trail and Navajo loop trail. Back to sunset point. Shuttle to car. Pickup car. lunch near bryce canyon city. Local Coffee roasters coffee. Market near hotel. Drive to bryce canyon entrance and visitor center. Souvenier buy and watch film in visitor center. Drive the scenic 18 mile drive in bryce canyon. Rainbow point, natural bridge, Yovimpa point, and other viewpoints. Back to inspiration point for sunset. Sit there for an hour for sunset. Drive back to Airbnb. Cstop pizza pickup dinner in panguitch.
 
-Day 4 - Drive in morning to Bryce canyon. Park near shuttle entrance. Shuttle to bryce point overlook. Shuttle to sunrise point. Hike queens garden trail and Navajo loop trail. Back to sunset point. Shuttle to car. Pickup car. lunch near bryce canyon city. Local Coffee roasters coffee. Market near hotel. Drive to bryce canyon entrance and visitor center. Souvenier buy and watch film in visitor center. Drive the scenic 18 mile drive in bryce canyon. Rainbow point, natural bridge, Yovimpa point, and other viewpoints in car. Back to inspiration point for sunset. Sit there for an hour for sunset. Drive back to panguitch. Cstop pizza pickup dinner in panguitch. Back to airbnb for the night.
+Day 5 - Early morning sunrise at Bryce canyon sunrise point. Drive back to airbnb for couple hours of sleep. Pack and Checkout from airbnb. Drive back to Bryce canyon park. On way Red canyon views. Upper and lower inspiration points hike. Park car at bryce point. Hike the peeakaboo trail. Navajo loop connector. Two bridges trail. Back to sunset point. Shuttle to bryce point. Pick up car and drive. Coffee from tourist rest. Lunch at bryce canyon city. Drive to Loa. Checkin at airbnb. Maggi dinner and Airbnb for the night.
 
-Day 5 - Early morning sunrise at Bryce canyon sunrise point. Drive back to airbnb for couple hours of sleep. Pack and Checkout from airbnb. Drive back to Bryce canyon park. On way Red canyon views. Upper and lower inspiration points hike. Park car at bryce point. Hike the peeakaboo trail. Navajo loop connector. Two bridges trail. Back to sunset point. Shuttle to bryce point. Pick up car and drive. Coffee from tourist rest. Subway lunch at bryce canyon city. Drive to Loa. Checkin at airbnb. Maggi dinner and Airbnb for the night.
-
-Day 6 - Morning drive from airbnb to Torrey for Shooke coffee roastery. Capitol reef park sign photos. Viewpoints stopby. Panorama viewpoint. Visitor center souvenier buy and movie watch. Gifford homestead pie lunch. Hickman bridge trail hiking. Rain on the way back from hike (Running to car - funny). Petroglyphs watch. Gifford homestead icecream. Scenic drive for couple hours. Sunset point views. Drive to brickell for dinner at india palace/curry pizza. Back to airbnb for the night.
+Day 6 - Morning drive from airbnb to Torrey for Shooke coffee roastery. Capitol reef park sign photos. Viewpoints stopby. Panorama viewpoint. Visitor center souvenier buy and movie watch. Gifford homestead pie. Hickman bridge trail hiking. Rain on the way back from hike (Running to car - funny). Petroglyphs watch. Gifford homestead icecream. Scenic drive for couple hours. Sunset point views. Drive to brickell for dinner at india palace/curry pizza. Back to airbnb for the night.
 
 Day 7 - Morning checkout from airbnb in loa. Drive to Torrey for Shooke roastery coffee. Capitol reef driveby. Goblins valley State Park and small valley hike. Drive to moab. Checkin at Hotel. Drive to Arches National Park for sunset at Delicate Arch. Hike Delicate arch. Drive back to Moab. Gilibertos mexican restaurant dinner. Reach back hotel. Spa and relax for the night.
 
@@ -231,7 +229,7 @@ Day 8 - Early morning drive to canyonlands national park for sunrise at Mesa arc
 
 Day 9 - Early morning drive to mesa arch for sunrise (again!) in canyonlands. Grand view point overlook. Green river overlook. Visitor center movie watching. Other overlook views. Drive back to moab hotel. Pack and checkout from moab. Potash road drive. Drive to Las vegas. Reach Strat hotel las vegas. Checkin and rest for sometime. Go for dinner. Drive by sphere for views.
 
-Day 10 - Get rental car from valet and go to coffee roastery for breakfast. Duece City bus to go to strip. Cosmopolitan and bellagio and fountains show. Walk to sphere going through flamingo and other casinos. Sphere show- Wizard of Oz. Walk through venetian to bellagio fountains show. In N out burger for dinner; return rental. Get flight back home.
+Day 10 - Get rental car from valet and go to coffee roastery for breakfast. Duece City bus to go to strip. Cosmopolitan and bellagio and fountains show. Walk to sphere going through flamingo and other casinos. Sphere show- Wizard of Oz. Walk through venetian to bellagio fountains show. In-N-Out burger for dinner; return rental. Get flight back home.
 `,
 
 gallery: [
@@ -242,14 +240,20 @@ gallery: [
   `${import.meta.env.BASE_URL}images/utah/windows.jpg`,
   `${import.meta.env.BASE_URL}images/utah/windows-2.jpg`,
   `${import.meta.env.BASE_URL}images/utah/balanced-rock.jpg`,
-  `${import.meta.env.BASE_URL}images/utah/goblins-valley.jpg`
+  `${import.meta.env.BASE_URL}images/utah/goblins-valley.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/delicate-1.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/hero.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/delicate-3.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/zion-1.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/zion-2.jpg`,
+  `${import.meta.env.BASE_URL}images/utah/zion-3.jpg`,
 ]
 },
   {
     id: "las-vegas",
     title: "Las Vegas",
-    description: "The Strip, nightlife, Seven Magic Mountains, Bellagio, Hoover Dam, Valley of Fire State Park",
-    image: `${import.meta.env.BASE_URL}images/vegas/hero.jpg`,
+    description: "3 Day vegas trip covering several attractions including The Strip, Seven Magic Mountains, Hoover Dam, Valley of Fire State Park. I have been to Vegas 3 times.",
+    image: `${import.meta.env.BASE_URL}images/vegas/vegas.jpg`,
     highlights: ["Sphere", "Bellagio", "Venetian", "Caesar's Palace", "Valley of Fire State Park", "Seven Magic Mountains", "Excalibur", "Luxor", "New York-New York", "Cosmopolitan", "Flamingo", "Stratosphere"],
     country: "USA",
 
@@ -261,16 +265,40 @@ gallery: [
   `${import.meta.env.BASE_URL}images/vegas/newyork.JPG`,
   `${import.meta.env.BASE_URL}images/vegas/sphere.jpg`,
   `${import.meta.env.BASE_URL}images/vegas/venetian.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/magic.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/valley-1.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/valley-fire.jpg`,
+  `${import.meta.env.BASE_URL}images/vegas/hero.jpg`,
 ]
   },
   {
-    id: "california-roadtrip",
-    title: "California Road Trip",
-    description: "SF to LA adventure",
-    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree", "Big Sur"],
-    country: "USA",
-    gallery: []
+    id: "portugal-2026",
+    title: "Portugal (Europe)",
+    description: "First Europe Trip and what can be better destination than Portugal. Visited Lisbon, Porto, Sintra, Albufeira, Guimarães, Coimbra, Aveiro, Braga",
+    image: `${import.meta.env.BASE_URL}images/portugal/portugal-4.jpg`,
+    highlights: ["Castles", "Tram 28", "Port wine", "Beaches", "Tile art", "Pastel de nata", "Algarve cliffs", "Douro river cruise", "Sintra palaces", "Porto Ribeira district", "Guimarães historic center", "Coimbra university", "Aveiro canals", "Braga Bom Jesus Sanctuary", "Lisbon viewpoints"],
+    country: "Portugal",
+    gallery: [
+      `${import.meta.env.BASE_URL}images/portugal/portugal-1.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-2.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-3.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-5.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-6.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-7.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-8.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-9.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-10.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-11.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-12.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-13.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-14.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-15.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-16.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-17.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-18.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-19.jpg`,
+      `${import.meta.env.BASE_URL}images/portugal/portugal-20.jpg`,
+    ]
   },
   {
     id: "orlando",
@@ -278,6 +306,15 @@ gallery: [
     description: "Universal + Disney World",
     image: "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Harry Potter World", "Magic Kingdom", "EPCOT", "Animal Kingdom", "Hollywood Studios", "Universal Studios"],
+    country: "USA",
+    gallery: []
+  },
+  {
+    id: "california-roadtrip",
+    title: "California Road Trip",
+    description: "SF to LA adventure",
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree", "Big Sur"],
     country: "USA",
     gallery: []
   },
@@ -337,15 +374,6 @@ gallery: [
     image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
     highlights: ["Cadillac Mountain", "Jordan Pond", "Thunder Hole", "Sand Beach", "Bass Harbor Head Lighthouse"],
     country: "USA",
-    gallery: []
-  },
-  {
-    id: "portugal-2026",
-    title: "Portugal",
-    description: "Lisbon, Porto, Sintra, Albufeira, Guimarães, Coimbra, Aveiro, Braga",
-    image: "https://images.unsplash.com/photo-1526404429640-3d5a6c6d0f4a?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Castles", "Tram 28", "Port wine", "Beaches", "Tile art"],
-    country: "Portugal",
     gallery: []
   },
   {

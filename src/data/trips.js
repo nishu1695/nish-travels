@@ -254,8 +254,72 @@ gallery: [
     title: "Las Vegas",
     description: "3 Day vegas trip covering several attractions including The Strip, Seven Magic Mountains, Hoover Dam, Valley of Fire State Park. I have been to Vegas 3 times.",
     image: `${import.meta.env.BASE_URL}images/vegas/vegas.jpg`,
-    highlights: ["Sphere", "Bellagio", "Venetian", "Caesar's Palace", "Valley of Fire State Park", "Seven Magic Mountains", "Excalibur", "Luxor", "New York-New York", "Cosmopolitan", "Flamingo", "Stratosphere"],
     country: "USA",
+    tripType: "City Escape",
+    duration: "3 Days",
+    highlights: ["Sphere", "Bellagio", "Venetian", "Caesar's Palace", "Valley of Fire State Park", "Seven Magic Mountains", "Excalibur", "Luxor", "New York-New York", "Cosmopolitan", "Flamingo", "Stratosphere"],
+  story: `
+Las Vegas is much more than casinos. This trip combined iconic resorts,
+spectacular architecture, desert landscapes, and nearby natural attractions.
+
+The highlights were Valley of Fire State Park and walking the Las Vegas Strip
+at night while exploring some of the world's most famous hotels.
+`,
+
+  favoriteMoment:
+    "Watching the Bellagio Fountains show at night.",
+
+  funniestMoment:
+    "Getting completely lost inside the massive casino resorts while trying to find the exits.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Venetian • Caesars • Bellagio",
+      details: [
+        "Arrive at LAS airport",
+        "Rental car pickup",
+        "Hotel check-in",
+        "Explore Venetian and Grand Canal Shops",
+        "Caesars Palace",
+        "Forum Shops",
+        "Bellagio Conservatory",
+        "Bellagio Fountains",
+        "Dinner"
+      ]
+    },
+    {
+      day: 2,
+      title: "Hoover Dam • South Strip",
+      details: [
+        "Hoover Dam half-day trip",
+        "Luxor",
+        "Mandalay Bay",
+        "Excalibur",
+        "MGM Grand",
+        "New York-New York",
+        "Cosmopolitan",
+        "Bellagio Fountains"
+      ]
+    },
+    {
+      day: 3,
+      title: "Seven Magic Mountains • Valley of Fire",
+      details: [
+        "Seven Magic Mountains",
+        "Valley of Fire State Park",
+        "Short hikes",
+        "Return to Vegas",
+        "Rental return",
+        "Flight home"
+      ]
+    }
+  ],
+
+  fullItinerary: `Vegas Itinerary:
+Day1: Land at LAS airport. Rental car pickup. Checkin hotel and rest for sometime. Lunch and then explore Venetian and Grand Canal Shops. Caesars Palace and mall explore. Bellagio Casino, conservatory and Fountains show. Dinner and back to hotel.
+Day2: Hoover Dam- Half day. Evening explore Strip. Start at Luxor & Mandalay Bay. Excalibur and MGM Grand. New York New York and then Cosmopolitan. End by Bellagio Fountains at night to explore Paris area.
+Day3: Seven magic mountains explore. Then drive Valley of Fire State Park- Half day. few small hikes. Back to Vegas by evening. Dinner and drop rental car. Flight back home.`,
 
 gallery: [
   `${import.meta.env.BASE_URL}images/vegas/bellagio.jpg`,
@@ -273,11 +337,75 @@ gallery: [
   },
   {
     id: "portugal-2026",
-    title: "Portugal (Europe)",
+    title: "Portugal",
     description: "First Europe Trip and what can be better destination than Portugal. Visited Lisbon, Porto, Sintra, Albufeira, Guimarães, Coimbra, Aveiro, Braga",
     image: `${import.meta.env.BASE_URL}images/portugal/portugal-4.jpg`,
-    highlights: ["Castles", "Tram 28", "Port wine", "Beaches", "Tile art", "Pastel de nata", "Algarve cliffs", "Douro river cruise", "Sintra palaces", "Porto Ribeira district", "Guimarães historic center", "Coimbra university", "Aveiro canals", "Braga Bom Jesus Sanctuary", "Lisbon viewpoints"],
     country: "Portugal",
+    tripType: "International Adventure",
+    duration: "13 Days",
+    highlights: ["Castles", "Tram 28", "Port wine", "Beaches", "Tile art", "Pastel de nata", "Algarve cliffs", "Douro river cruise", "Sintra palaces", "Porto Ribeira district", "Guimarães historic center", "Coimbra university", "Aveiro canals", "Braga Bom Jesus Sanctuary", "Lisbon viewpoints"],
+    story: `
+Portugal offered the perfect mix of historic cities, castles,
+river cruises, coastal scenery, and amazing food.
+
+From Porto's riverfront to Sintra's fairy-tale palaces,
+every region felt completely different.
+`,
+
+  favoriteMoment:
+    "Watching sunset from Jardim do Morro in Porto.",
+
+  funniestMoment:
+    "Running with luggage to catch the Coimbra bus only to watch it leave in front of us.",
+
+  itinerary: [
+    {
+      day: 2,
+      title: "Arrival in Porto",
+      details: [
+        "Immigration",
+        "Hotel check-in",
+        "6 Bridges Cruise",
+        "Porto Riverwalk sunset"
+      ]
+    },
+    {
+      day: 3,
+      title: "Porto Exploration",
+      details: [
+        "Livraria Lello",
+        "Clérigos Tower",
+        "Chapel of Souls",
+        "Majestic Café",
+        "Jardim do Morro sunset"
+      ]
+    },
+    {
+      day: 4,
+      title: "Douro Valley",
+      details: [
+        "Wine tasting",
+        "Scenic river cruise",
+        "Two wineries"
+      ]
+    }
+  ],
+
+  fullItinerary: `• Day 1- Flight to Porto (Red eye flight).
+• Day 2- Reach Oporto in morning. Immigration. Uber to Hotel and early check-in. Rest for sometime. 6 bridges river cruise booked for evening. Sunset at the riverwalk porto.
+• Day 3- Porto all day. Breakfast at hotel. Livrello library. Clerigos tower observatory. Downtown Porto explore major attractions. Lunch at Imperial McDonalds. Chapel of Souls. Majestic cafe. Sunset at Jardim do Morro. Se de Porto. Back to hotel for night.
+• Day 4- Duoro Valley Day trip tour. All day Duoro Valley. 2 Wineries and scenic river cruise. Hotel for the night.
+• Day 5- Checkout from Porto hotel. Braga and Guimaraes day tour early morning after breakfast. Left bags at hotel. Came back from Braga and pick bags. Flixbus in evening to Coimbra. Funny incident: we relaxed at hotel after picking up luggage thinking we have time for bus. Uber came and we reached the bus station but got stuck in traffic. We rushed and ran with luggages but saw the bus leave in front of us. So we had to take next bus to Coimbra after an hour! Night stay at Coimbra hotel.
+• Day 6- Coimbra Half day explore University. Flixbus to Aveiro. Montego river canal boat ride and Aveiro explore. Flixbus back to Coimbra for sunset. Walk by river and night stay at hotel.
+• Day 7- FlixBus to Algarve/Albufeira. Reach Albufeira by noon. Check-in at Airbnb and rest for noon. Go out for beach walk and sunset watching. Dinner.
+• Day 8- Benagil caves boat tour at 11am. Lunch at the Pier after tour. Uber to 7 miles hike by Benagil cave until sunset. Back to Albufiera for sunset and go out for night life and dinner for few hours.
+• Day 9- FlixBus to Lisbon. Checkout from Airbnb. Reach Lisbon by 4pm and check-in. Go out for sunset at Santa miraduoro, walk pink street, Pastel de Nata, Tram pictures, dinner and back to bnb for the night.
+• Day 10- Sintra- All 4 major castles. Uber to Sintra. Pena Palace, Moorish Castle, Quinta Regaliero, Old town walk and lunch, Monserrate castle. Uber back to Lisbon. Dinner and rest.
+• Day 11- Lisbon- All day. Green street, Pink street, Tram 28 pictures, Praca de commercia, Time out Market. City life.
+• Day 12- Lisbon- All day. Tram 28 ride complete route, Rossio station, Jeronimos Monestery, Belem tower, Sunset at 7pm cruise book for final goodbye.
+• Day 13- Early morning flight back home from Lisbon airport.
+`,
+
     gallery: [
       `${import.meta.env.BASE_URL}images/portugal/portugal-1.jpg`,
       `${import.meta.env.BASE_URL}images/portugal/portugal-2.jpg`,
@@ -300,33 +428,274 @@ gallery: [
       `${import.meta.env.BASE_URL}images/portugal/portugal-20.jpg`,
     ]
   },
-  {
-    id: "orlando",
-    title: "Orlando Theme Parks",
-    description: "Universal + Disney World",
-    image: "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Harry Potter World", "Magic Kingdom", "EPCOT", "Animal Kingdom", "Hollywood Studios", "Universal Studios"],
-    country: "USA",
-    gallery: []
-  },
-  {
-    id: "california-roadtrip",
-    title: "California Road Trip",
-    description: "SF to LA adventure",
-    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree", "Big Sur"],
-    country: "USA",
-    gallery: []
-  },
-  {
-    id: "smoky-mountains",
-    title: "Great Smoky Mountains",
-    description: "Tennessee nature trip",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Clingmans Dome", "Gatlinburg"],
-    country: "USA",
-    gallery: []
-  },
+{
+  id: "orlando",
+  title: "Orlando Theme Parks",
+  description:
+    "Disney World and Universal Orlando adventure covering four major parks.",
+  image: `${import.meta.env.BASE_URL}images/orlando/orlando-2.jpg`,
+  country: "USA",
+  tripType: "Theme Park Vacation",
+  duration: "5 Days",
+  highlights: [
+    "Universal Islands of Adventure",
+    "Harry Potter World",
+    "Hollywood Studios",
+    "EPCOT",
+    "Magic Kingdom",
+    "CityWalk",
+    "Nighttime shows",
+    "Fireworks"
+  ],
+
+  story: `
+One of the most fun theme park vacations I've taken.
+Four straight days of rides, shows, fireworks,
+and world-class attractions.
+`,
+
+  favoriteMoment:
+    "Walking through Hogsmeade at Islands of Adventure and cheering with Butterbeer looking at Hogwarts.",
+
+  funniestMoment:
+    "Trying to speed-walk across EPCOT and realizing how enormous the park actually is.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Universal Islands of Adventure",
+      details: [
+        "Park open to close",
+        "CityWalk evening"
+      ]
+    },
+    {
+      day: 2,
+      title: "Disney's Hollywood Studios",
+      details: [
+        "Hollywood Studios",
+        "Nighttime show"
+      ]
+    },
+    {
+      day: 3,
+      title: "EPCOT",
+      details: [
+        "World Showcase",
+        "Nighttime show"
+      ]
+    },
+    {
+      day: 4,
+      title: "Disney's Magic Kingdom",
+      details: [
+        "Magic Kingdom",
+        "Fireworks show"
+      ]
+    },
+    {
+      day: 5,
+      title: "Lake Eola Park",
+      details: [
+        "Lake Eola walk",
+        "Return rental",
+        "Flight home"
+      ]
+    }
+  ],
+
+  fullItinerary: `I have been to Orlando 3 times. This is the most recent Itinerary.
+Disney World parks and Universal Islands of Adventure Park
+Total 4 days plan for theme park.
+Day 1- Universal Islands of Adventure (9am-8pm) then walk city
+Day 2- Disney Hollywood Studios park (9am-9pm) then show
+Day 3- Epcot Park (9am-9pm) then show
+Day 4- Magic Kingdom Park (9am-10pm) then show
+Day 5- Hotel checkout. Lake Eola Park walk, Return rental car, Back home flight from MCO airport.`,
+
+  gallery: [
+    `${import.meta.env.BASE_URL}images/orlando/orlando-1.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-3.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-4.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-5.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-6.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-7.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-8.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-9.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-10.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-11.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-12.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-13.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-14.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-15.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-16.jpg`,
+  ]
+},
+{
+  id: "acadia",
+  title: "Acadia National Park",
+  description:
+    "5-day Maine adventure featuring Acadia National Park and Bar Harbor.",
+  image: `${import.meta.env.BASE_URL}images/acadia/acadia-1.jpg`,
+  country: "USA",
+  tripType: "National Park Adventure",
+  duration: "5 Days",
+  highlights: [
+    "Cadillac Mountain",
+    "Precipice Trail",
+    "Beehive Trail",
+    "Jordan Pond",
+    "Thunder Hole",
+    "Bass Harbor Lighthouse"
+  ],
+  story: `
+Acadia combines rugged coastline, granite mountains,
+and beautiful ocean scenery.
+
+Cadillac Mountain sunrise was one of the most memorable
+sunrises I've ever witnessed.
+`,
+
+  favoriteMoment:
+    "Hiking the Precipice Trail.",
+
+  funniestMoment:
+    "Waking up before dawn and questioning life choices while driving up Cadillac Mountain at 4:30am.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Portland Stop",
+      details: [
+        "Portland Head Lighthouse",
+        "Drive to Bangor"
+      ]
+    },
+    {
+      day: 2,
+      title: "Precipice Trail",
+      details: [
+        "Precipice Trail hike",
+        "Thunder Hole",
+        "Bar Harbor"
+      ]
+    }
+  ],
+
+  fullItinerary: `Day1:
+Leave early morning around 7am. Portland, ME stop for 2 hours to explore key attraction- Portland Head lighthouse. Drive to Hotel and check-in and relax for the night. Stay in Bangor.
+
+Day2:
+Precipice Trail hike. Thunder hole overlook and gift shop. Pizza early dinner and Bar harbor town walk. Back to hotel.
+
+Day3:
+Early morning drive to top of Cadillac mountain for sunrise (reservation required). Leave from hotel by 4.30am to be there by 5.30am. Bar harbor town at 8am for breakfast and coffee. Jordan pond trail walking and South bubble trail hike. Jordan Pond house tea and Popovers. Sunset at Bass Harbor head lighthouse. Olive garden dinner by Hotel.
+
+Day4:
+Beehive trail Hike after breakfast. Sand beach for the afternoon. Thunder hole overlook. Park loop road drive and continue to Sunset at Otter point. Dinner. Back to hotel.
+
+Day5:
+Checkout and drive back home.`,
+
+  gallery: [
+    `${import.meta.env.BASE_URL}images/acadia/acadia-2.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-3.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-4.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-5.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-6.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-7.jpg`,
+  ]
+},
+{
+  id: "smoky-mountains",
+  title: "Great Smoky Mountains",
+  description:
+    "4-day Tennessee mountain getaway covering Gatlinburg, Pigeon Forge, and Smoky Mountains National Park.",
+  image: "",
+  country: "USA",
+  tripType: "Mountain Vacation",
+  duration: "4 Days",
+  highlights: [
+    "Charlie's Bunion",
+    "Clingmans Dome",
+    "SkyPark",
+    "Gatlinburg",
+    "Pigeon Forge",
+    "Parrot Mountain"
+  ],
+  story: `
+A relaxing mountain escape combining scenic drives,
+hiking, attractions, and cabin life.
+
+The trip balanced outdoor adventure with the fun atmosphere
+of Gatlinburg and Pigeon Forge.
+`,
+
+  favoriteMoment:
+    "Taking parrots in hands and feeding them.",
+
+  funniestMoment:
+    "Ordering a huge Indian dinner after a long mountain hike and barely being able to move afterwards.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Arrival",
+      details: [
+        "Parrot Mountain",
+        "Gatlinburg",
+        "Pigeon Forge"
+      ]
+    },
+    {
+      day: 2,
+      title: "Scenic Drive",
+      details: [
+        "Smoky Mountains scenic drive",
+        "SkyPark"
+      ]
+    },
+    {
+      day: 3,
+      title: "Charlie's Bunion",
+      details: [
+        "Charlie's Bunion hike",
+        "Clingmans Dome sunset"
+      ]
+    },
+    {
+      day: 4,
+      title: "Zipline Adventure",
+      details: [
+        "Zipline tour",
+        "Souvenir shopping",
+        "Drive home"
+      ]
+    }
+  ],
+
+  fullItinerary: `Day 1:
+Check-in Airbnb early morning breakfast and rest after overnight long dríve.
+Lunch and then Parrot mountain/zoo visit in afternoon.
+Downtown Gatlinburg explore in evening. Wonderworks and Pigeon force strip area explore.
+Dinner and back at Airbnb for hot tub and relax.
+
+Day 2:
+Smoky mountains park scenic drive. Lunch and drinks at nearby brewery.
+Skypark bridge and downtown Gatlinburg till evening. Dinner and back at Airbnb.
+
+Day 3:
+Hike at Charlie Bunyons hiking trail (one of the many best hikes at smokies.)
+Clingmans Dome visit in evening for sunset.
+Dinner from Indian restaurant (Spice express- heavy food after hiking). Back at cabin.
+
+Day 4:
+Breakfast and checkout from cabin.
+Zipline tour booked (about 3 hours total time). Late Lunch.
+Downtown Gatlinburg souvenir shopping before heading back home.`,
+
+  gallery: []
+},
   {
     id: "nyc",
     title: "New York City",
@@ -339,6 +708,15 @@ gallery: [
       "https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80"
     ]
+  },
+  {
+    id: "california-roadtrip",
+    title: "California Road Trip",
+    description: "SF to LA adventure",
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+    highlights: ["Golden Gate Bridge", "Hollywood", "Joshua Tree", "Big Sur"],
+    country: "USA",
+    gallery: []
   },
   {
     id: "chicago",
@@ -365,15 +743,6 @@ gallery: [
     image: "https://images.unsplash.com/photo-1503614472-8c93d56cd6f2?auto=format&fit=crop&w=1200&q=80",
     highlights: ["CN Tower", "Niagara Falls"],
     country: "Canada",
-    gallery: []
-  },
-  {
-    id: "acadia",
-    title: "Acadia National Park",
-    description: "Maine coastal beauty",
-    image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
-    highlights: ["Cadillac Mountain", "Jordan Pond", "Thunder Hole", "Sand Beach", "Bass Harbor Head Lighthouse"],
-    country: "USA",
     gallery: []
   },
   {

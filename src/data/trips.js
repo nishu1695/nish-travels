@@ -611,7 +611,7 @@ Checkout and drive back home.`,
   title: "Great Smoky Mountains",
   description:
     "4-day Tennessee mountain getaway covering Gatlinburg, Pigeon Forge, and Smoky Mountains National Park. Been to Smokies 2 times. Most recent trip itinerary.",
-  image: `${import.meta.env.BASE_URL}images/smokies/smokies-4.jpg`,
+  image: `${import.meta.env.BASE_URL}images/smokies/smoky-4.jpg`,
   country: "USA",
   tripType: "Mountain Vacation",
   duration: "4 Days",
@@ -695,10 +695,10 @@ Zipline tour booked (about 3 hours total time). Late Lunch.
 Downtown Gatlinburg souvenir shopping before heading back home.`,
 
   gallery: [
-    `${import.meta.env.BASE_URL}images/smokies/smokies-1.jpg`,
-    `${import.meta.env.BASE_URL}images/smokies/smokies-2.jpg`,
-    `${import.meta.env.BASE_URL}images/smokies/smokies-3.jpg`,
-    `${import.meta.env.BASE_URL}images/smokies/smokies-5.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smoky-1.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smoky-2.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smoky-3.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smoky-5.jpg`,
   ]
 },
   {

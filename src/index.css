@@ -17,18 +17,49 @@ a {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 18px 30px;
-  background: #0b1f3a;
-  color: white;
+  justify-content: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  padding: 16px 30px;
+
+  background: #0f172a;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
+/* Logo stays left */
+.logo {
+  position: absolute;
+  left: 30px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* Centered navigation */
 .nav-links {
   display: flex;
-  gap: 18px;
+  gap: 35px;
+  align-items: center;
 }
 
+.nav-links a {
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ff8c42;
+}
 .hero {
   text-align: center;
   padding: 100px 20px;

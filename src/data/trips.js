@@ -517,7 +517,7 @@ Day 5- Hotel checkout. Lake Eola Park walk, Return rental car, Back home flight 
     `${import.meta.env.BASE_URL}images/orlando/orlando-1.jpg`,
     `${import.meta.env.BASE_URL}images/orlando/orlando-3.jpg`,
     `${import.meta.env.BASE_URL}images/orlando/orlando-4.jpg`,
-    `${import.meta.env.BASE_URL}images/orlando/orlando-5.jpg`,
+    `${import.meta.env.BASE_URL}images/orlando/orlando-5.JPG`,
     `${import.meta.env.BASE_URL}images/orlando/orlando-6.jpg`,
     `${import.meta.env.BASE_URL}images/orlando/orlando-7.jpg`,
     `${import.meta.env.BASE_URL}images/orlando/orlando-8.jpg`,
@@ -599,19 +599,19 @@ Checkout and drive back home.`,
 
   gallery: [
     `${import.meta.env.BASE_URL}images/acadia/acadia-2.jpg`,
-    `${import.meta.env.BASE_URL}images/acadia/acadia-3.jpg`,
-    `${import.meta.env.BASE_URL}images/acadia/acadia-4.jpg`,
-    `${import.meta.env.BASE_URL}images/acadia/acadia-5.jpg`,
-    `${import.meta.env.BASE_URL}images/acadia/acadia-6.jpg`,
-    `${import.meta.env.BASE_URL}images/acadia/acadia-7.jpg`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-3.JPG`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-4.JPG`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-5.JPG`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-6.JPG`,
+    `${import.meta.env.BASE_URL}images/acadia/acadia-7.JPG`,
   ]
 },
 {
   id: "smoky-mountains",
   title: "Great Smoky Mountains",
   description:
-    "4-day Tennessee mountain getaway covering Gatlinburg, Pigeon Forge, and Smoky Mountains National Park.",
-  image: "",
+    "4-day Tennessee mountain getaway covering Gatlinburg, Pigeon Forge, and Smoky Mountains National Park. Been to Smokies 2 times. Most recent trip itinerary.",
+  image: `${import.meta.env.BASE_URL}images/smokies/smokies-4.jpg`,
   country: "USA",
   tripType: "Mountain Vacation",
   duration: "4 Days",
@@ -694,7 +694,12 @@ Breakfast and checkout from cabin.
 Zipline tour booked (about 3 hours total time). Late Lunch.
 Downtown Gatlinburg souvenir shopping before heading back home.`,
 
-  gallery: []
+  gallery: [
+    `${import.meta.env.BASE_URL}images/smokies/smokies-1.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smokies-2.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smokies-3.jpg`,
+    `${import.meta.env.BASE_URL}images/smokies/smokies-5.jpg`,
+  ]
 },
   {
     id: "nyc",

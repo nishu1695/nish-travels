@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           <div className="card">
-            <h3>🏞 12 / 63</h3>
+            <h3>🏞 13 / 63</h3>
             <p>National Parks Visited</p>
           </div>
 
@@ -47,7 +47,7 @@ export default function Home() {
           </div>
 
           <div className="card">
-            <h3>✈ 52,623</h3>
+            <h3>✈ 62,623</h3>
             <p>Flight Miles Flown</p>
           </div>
 

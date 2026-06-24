@@ -607,6 +607,118 @@ Checkout and drive back home.`,
   ]
 },
 {
+  id: "grand-canyon-sedona",
+  title: "Grand Canyon & Sedona",
+  description:
+    "3-day Arizona adventure covering Antelope Canyon, Horseshoe Bend, Grand Canyon South Rim, and Sedona.",
+
+  image: `${import.meta.env.BASE_URL}images/arizona/arizona-4.jpg`,
+  country: "USA",
+  tripType: "National Parks & Southwest Road Trip",
+  duration: "3 Days",
+  highlights: [
+    "Lower Antelope Canyon",
+    "Horseshoe Bend",
+    "Lake Powell",
+    "Wahweap Overlook",
+    "Desert View Watchtower",
+    "Grand Canyon South Rim",
+    "Mather Point",
+    "South Kaibab Trail",
+    "Ooh Aah Point",
+    "Devils Bridge",
+    "Cathedral Rock",
+    "Chapel of the Holy Cross",
+    "Bell Rock",
+    "Red Rock Scenic Drive"
+  ],
+  story: `
+  This Arizona road trip combined some of the most iconic landscapes in the American Southwest.
+
+  The adventure began in Page, Arizona with the incredible sandstone formations of Lower Antelope Canyon and sunset views over Lake Powell.
+
+  The second day focused on Grand Canyon National Park where multiple South Rim viewpoints were explored before hiking the South Kaibab Trail to Ooh Aah Point for sunset inside the canyon.
+
+  The trip finished in Sedona among red rock formations, scenic drives, and short hikes including Devils Bridge, Cathedral Rock, Bell Rock, and the famous Chapel of the Holy Cross.
+  `,
+
+  favoriteMoment:
+    "Watching sunset from Ooh Aah Point after hiking down the South Kaibab Trail.",
+
+  funniestMoment:
+    "Trying to photograph every curve and color inside Lower Antelope Canyon while the tour guide kept moving the group along.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Page • Antelope Canyon • Horseshoe Bend",
+      details: [
+        "Drive to Page, Arizona",
+        "Flagstaff Walmart stop",
+        "In-N-Out lunch",
+        "Lower Antelope Canyon tour (Ken's Tours)",
+        "Horseshoe Bend overlook hike",
+        "Lake Powell Dam overlook",
+        "Arizona-Utah state line photo stop",
+        "Wahweap Overlook sunset",
+        "Hotel stay in Page",
+        "Hot tub and relaxation"
+      ]
+    },
+
+    {
+      day: 2,
+      title: "Grand Canyon National Park",
+      details: [
+        "Breakfast and hotel checkout",
+        "Shell Gas Station Cove stop",
+        "Grand Canyon East Entrance",
+        "Desert View Watchtower",
+        "South Rim scenic viewpoints",
+        "Mather Point",
+        "South Kaibab Trail hike",
+        "Ooh Aah Point sunset",
+      ]
+    },
+
+    {
+      day: 3,
+      title: "Sedona Exploration",
+      details: [
+        "Drive to Sedona",
+        "Devils Bridge hike",
+        "Lunch in Sedona",
+        "Red Rock scenic drive",
+        "Cathedral Rock viewpoint",
+        "Chapel of the Holy Cross",
+        "Bell Rock viewpoint"
+      ]
+    }
+  ],
+
+  fullItinerary: `
+Day 1:
+Drive to Page, AZ. Flagstaff stop at Walmart for water and supplies. McDonald's coffee pickup and In-N-Out for lunch. Drive to Lower Antelope Canyon (Ken's Tour), Page AZ. Lower Antelope Canyon reservation 2pm–4pm. Horseshoe Bend overlook hike and views. Lake Powell Dam overlook. Welcome to Utah and Arizona sign. Wahweap Overlook for sunset. Stay at Page for the night by Lake Powell. Dinner near hotel. Hot tub/jacuzzi relax after dinner and sleep for the night.
+
+Day 2:
+Wake up early morning and breakfast at hotel. Checkout by 7:30am. Shell Gas Station Cove visit. Drive to Grand Canyon National Park. East entrance to Desert View Watchtower. Drive through all viewpoints to Grand Canyon South Rim Visitor Center. Watch movie and gift shop at visitor center. Mather Viewpoint. Shuttle to South Kaibab Trail. Hike to Ooh Aah Point for sunset. Sunset in the canyon and back to hotel for the night.
+
+Day 3:
+Drive to Sedona after breakfast. Devils Bridge Trailhead hike. Lunch in Sedona. Red Rock scenic drive. Cathedral Rock viewpoint. Chapel of the Holy Cross. Bell Rock viewpoint.
+  `,
+
+  gallery: [
+    `${import.meta.env.BASE_URL}images/arizona/arizona-1.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-3.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-2.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-5.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-6.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-8.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-9.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-10.jpg`,
+  ]
+},
+{
   id: "smoky-mountains",
   title: "Great Smoky Mountains",
   description:
@@ -635,7 +747,7 @@ of Gatlinburg and Pigeon Forge.
     "Taking parrots in hands and feeding them.",
 
   funniestMoment:
-    "Ordering a huge Indian dinner after a long mountain hike and barely being able to move afterwards.",
+    "Logging to work after long overnight drive instead of relaxing.",
 
   itinerary: [
     {
@@ -643,8 +755,11 @@ of Gatlinburg and Pigeon Forge.
       title: "Arrival",
       details: [
         "Parrot Mountain",
-        "Gatlinburg",
-        "Pigeon Forge"
+        "Gatlinburg downtown explore",
+        "Pigeon Forge strip",
+        "Wonderworks",
+        "Dinner at local restaurant",
+        "Airbnb check-in and hot tub"
       ]
     },
     {
@@ -652,7 +767,8 @@ of Gatlinburg and Pigeon Forge.
       title: "Scenic Drive",
       details: [
         "Smoky Mountains scenic drive",
-        "SkyPark"
+        "SkyPark Bridge",
+        "Gatlinburg village area explore",
       ]
     },
     {

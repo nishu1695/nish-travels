@@ -227,50 +227,6 @@ export default function TripDetail() {
       {trip.fullItinerary}
     </div>
   </div>
-)}
-      {/* PHOTO GALLERY */}
-      {trip.gallery?.length > 0 && (
-        <div className="card">
-          <h2>Photo Gallery 📸</h2>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns:
-                "repeat(auto-fit, minmax(250px, 1fr))",
-              gap: "15px"
-            }}
-          >
-            {trip.gallery.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt={`${trip.title}-${index}`}
-                loading="lazy"
-                onClick={() => window.open(img, "_blank")}
-                style={{
-                  width: "100%",
-                  height: "250px",
-                  objectFit: "cover",
-                  borderRadius: "12px",
-                  cursor: "pointer",
-                  transition: "0.2s"
-                }}
-              />
-            ))}
-          </div>
-
-          <p
-            style={{
-              marginTop: "15px",
-              opacity: 0.7
-            }}
-          >
-            Click any image to view full size.
-          </p>
-        </div>
-      )}
-
-    </div>
+)}</div>
   );
 }

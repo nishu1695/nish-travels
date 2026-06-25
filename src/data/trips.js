@@ -709,13 +709,215 @@ Drive to Sedona after breakfast. Devils Bridge Trailhead hike. Lunch in Sedona. 
 
   gallery: [
     `${import.meta.env.BASE_URL}images/arizona/arizona-1.jpg`,
-    `${import.meta.env.BASE_URL}images/arizona/arizona-3.jpg`,
+    `${import.meta.env.BASE_URL}images/arizona/arizona-3.JPG`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-2.jpg`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-5.jpg`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-6.jpg`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-8.jpg`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-9.jpg`,
     `${import.meta.env.BASE_URL}images/arizona/arizona-10.jpg`,
+  ]
+},
+{
+  id: "washington-dc",
+  title: "Washington, D.C.",
+  description:
+    "Exploring America's capital city, monuments, museums, memorials, and historic landmarks.",
+  image: `${import.meta.env.BASE_URL}images/dc/dc-1.JPG`,
+  country: "USA",
+  tripType: "City Exploration & History",
+  duration: "2 days/3 days/weekend",
+
+  highlights: [
+    "National Mall",
+    "Lincoln Memorial",
+    "Washington Monument",
+    "U.S. Capitol",
+    "White House",
+    "World War II Memorial",
+    "Jefferson Memorial",
+    "Martin Luther King Jr. Memorial",
+    "Smithsonian Museums",
+    "Air & Space Museum",
+    "Natural History Museum",
+    "Tidal Basin",
+    "Georgetown",
+    "Library of Congress"
+  ],
+
+  story: `
+  Washington D.C. offers one of the best combinations of history,
+  architecture, museums, and iconic American landmarks.
+
+  From walking the National Mall to exploring Smithsonian museums,
+  every corner of the city tells a story about the nation's past,
+  present, and future.
+
+  I have been here many times and each visit offers a new perspective on the city and its history, specially Cherry blossom season in spring is the best time to visit.
+  `,
+
+  favoriteMoment:
+    "Watching the Cherry blossom festival by the Tidal Basin.",
+
+  funniestMoment:
+    "One year we went during the Cherry blossom festival and it was so crowded that we had to walk in a single file line just to get a glimpse of the blossoms. It felt like a parade of people!",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Arrival & National Mall",
+      details: [
+        "Capitol Building tour",
+        "Supreme Court building",
+        "Library of Congress",
+        "National Mall walk",
+        "Lincoln Memorial",
+        "Washington Monument"
+      ]
+    },
+
+    {
+      day: 2,
+      title: "Museums & Memorials",
+      details: [
+        "Smithsonian Museums",
+        "Air & Space Museum",
+        "Natural History Museum",
+        "World War II Memorial",
+        "Jefferson Memorial",
+        "Martin Luther King Jr. Memorial"
+      ]
+    },
+  ],
+
+  fullItinerary: `
+Washington D.C. Complete Itinerary
+
+Attractions:
+Cherry blossoms festival by Tidal Basin
+Lincoln memorial
+Washington monument top (Reservation)
+Capitol building inside tour (reservation)- Capitol visitor center
+The White house
+Library of Congress
+Supreme court US outside
+World war II memorial
+Smithsonian National museum of Natural history
+National Gallery of Art
+Smithsonian National Air and Space museum
+Thomas Jefferson Memorial
+Martin Luther king Jr memorial
+
+
+Rooftops and Food:
+The rooftop at Graham
+VUE rooftop
+Top of the Yard Rooftop bar
+Upstairs Rooftop at the Marrow
+Rooftop at the Thompson
+
+
+First stop will be capitol building tour (free; reservation required). Library of congress views. Outside walking to see sculptures and buildings for capitol building views from different sides. US supreme court building nearby.
+National mall area by 8pm to see night lights by Washington monument and Lincoln memorial and reflecting pool.
+Drive to National Mall area. White house view. White house experience museum free tour. Old post office tower (Clock tower free). Then drive to Air and Space museum by 4pm. Museum explore for few hours. Tidal basin area explore and walk.
+
+  `,
+
+  gallery: [
+    `${import.meta.env.BASE_URL}images/dc/dc-2.jpg`,
+    `${import.meta.env.BASE_URL}images/dc/dc-3.JPG`,
+    `${import.meta.env.BASE_URL}images/dc/dc-4.jpg`,
+    `${import.meta.env.BASE_URL}images/dc/dc-5.jpg`,
+  ]
+},
+{
+  id: "philadelphia",
+  title: "Philadelphia",
+  description:
+    "Historic landmarks, iconic food, museums, and a relaxing weekend exploring the birthplace of America.",
+
+  image: `${import.meta.env.BASE_URL}images/philly/philly-6.jpg`,
+  country: "USA",
+  tripType: "Weekend City Trip",
+  duration: "2 Days",
+
+  highlights: [
+    "Independence Hall",
+    "Liberty Bell",
+    "Reading Terminal Market",
+    "Rocky Steps",
+    "Philadelphia Museum of Art",
+    "Love Park",
+    "City Hall",
+    "Old City",
+    "Elfreth's Alley",
+    "Penn's Landing",
+    "Benjamin Franklin Parkway",
+    "Schuylkill River Trail"
+  ],
+
+  story: `
+  Philadelphia makes for a perfect weekend escape from New Jersey.
+
+  Rich in American history, incredible food, beautiful architecture,
+  and walkable neighborhoods, the city offers a great mix of culture
+  and sightseeing.
+
+  From Independence Hall and the Liberty Bell to the famous Rocky Steps,
+  every corner of the city tells a story.
+  `,
+
+  favoriteMoment:
+    "Walking through Elfreth's Alley, the oldest continuously inhabited residential street in America, and imagining life in colonial times. Also, taking countless pictures.",
+
+  funniestMoment:
+    "While walking from Elfreth's Alley to Penn's Landing, we got lost in the maze of streets and ended up in a completely different neighborhood. We laughed so hard at our sense of direction (or lack thereof) and eventually found our way back.",
+
+  itinerary: [
+    {
+      day: 1,
+      title: "Historic Philadelphia",
+      details: [
+        "Liberty Bell",
+        "Independence Hall",
+        "National Constitution Center",
+        "Elfreth's Alley",
+        "Penn's Landing",
+        "Benjamin Franklin Bridge views",
+        "Cherry Street Pier"
+      ]
+    },
+
+    {
+      day: 2,
+      title: "Museums & City Exploration",
+      details: [
+        "Philadelphia Museum of Art",
+        "Love Park",
+        "City Hall",
+        "Dilworth Park",
+        "Logan Square",
+        "Church of Saint Paul"
+      ]
+    }
+  ],
+
+  fullItinerary: `
+Philadelphia Weekend Trip
+Day 1: Explore Philly history. Reservation at Independence Hall for 11am.
+Liberty bell, National Constitution center, Independence Hall visitor Center, Walk to Elfreth's alley. Cherry street pier/Penns landing area for Benjamin Franklin bridge views. Lunch and drinks. Back to parking lot. Drive to airbnb.
+Check in at airbnb around 5pm and rest sometime. Penn treaty Park for sunset and chill.
+
+Day 2: Checkout in morning from airbnb. LOVE Park area. City hall, Dilworth Park, Logan square, Church of Saint Paul. Pickup car and drive to Phila museum of art for Rocky Steps. Stairs and rocky steps. Drive around UPenn university area.
+
+  `,
+
+  gallery: [
+    `${import.meta.env.BASE_URL}images/philly/philly-1.jpg`,
+    `${import.meta.env.BASE_URL}images/philly/philly-2.jpg`,
+    `${import.meta.env.BASE_URL}images/philly/philly-3.jpg`,
+    `${import.meta.env.BASE_URL}images/philly/philly-4.jpg`,
+    `${import.meta.env.BASE_URL}images/philly/philly-5.jpg`,
   ]
 },
 {
